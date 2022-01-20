@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: 'Nokora', Sans-Serif;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s linear;
+}
+
+html {
+
+  scroll-behavior: smooth;
+  transition: all 0.5s linear;
+
+}
+
+#wrap_page {
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    transition: all 0.5s linear;
+}
+
+#header {
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline;
+    margin-left: 10px;
+    padding-left: 50px;
+}
+
+#content_page{
+    width: 55%;
+    float: left;
+}
+
+#sidebar {
+    width: 35%;
+    float: right;
+}
+
+p {
+    line-height: 22px;
+}
+
+#menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 3,5px;
+  position: sticky;
+  transition: all 0.5s linear;
+}
+
+#content h1{
+    color: red;
+}
+
+#content_but{
+    background: #fff;
+}
+
+#wrap_page1 {
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    transition: all 0.5s linear;
+}
+
+#logo{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#navigation{
+    background: #ddd;
+}
+#content{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#menu ul li a:hover{
+    color: red;
+}
+
+#sidebar  input{
+    width: 300px;
+}
+
+#sidebar a input:hover{
+    color: rgb(255, 0, 255);
+    background:cyan; 
+}
+
+#footer1{
+    width: 1080px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+    background: rgb(255, 217, 0);
+    display: block;
+}
+
+#menu {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 50px;
+   background-color: rgba(255, 255, 255, 0.7);
+   position: sticky;
+   top: 0;
+}
+
+
+  }
+  .about {
+    max-width: 90%;
+  }
+  .about .detail {
+    padding: 100px;
+  }
+  .about .detail .desc {
+    font-size: 16px;
+  }
+
+  .about .detail {
+    padding: 0 70px;
+  }
+  .about {
+    max-width: 95%;
+  }
+  .about .detail {
+    padding: 0 50px;
+  }
+  
+  .about {
+    max-width: 100%;
+  }
+  .about .detail .desc {
+    font-size: 14px;
+  }
+ 
+  .about .detail {
+    padding: 0 30px;
+  }
+
+  .about .detail {
+    padding: 0 20px;
+  }
+  .about .detail .desc {
+    font-size: 13px;
+  }
+  
+  #KL {
+      width: 181%;
+  }
+  
+  #HH {
+      text-align: center;
+      justify-content: space-between;
+      display: block;
+  }
+  
+  .detail {
+      text-align: center;
+  }
+  
+  .desc {
+      text-align: center;
+      justify-content: space-between;
+      display: block;
+  }
+  
+  #BN {
+      font-size: 40px;
+  }
+  
+  #content {
+      transition: all 0.5s linear;
+  }
+
+  #sidebar {
+      transition: all 0.5s linear;
+  }
